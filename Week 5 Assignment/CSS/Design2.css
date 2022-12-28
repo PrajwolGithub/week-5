@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    background-image:url(../img/back.jpg);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.a .title {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 50px;
+  font-weight: 300;
+  word-spacing: 15px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.Tenzin { 
+  height:70vh;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  width: 33%;
+  
+}
+.Tenzin figure {
+width: 300px;
+height: 300px;
+  margin: 30px;
+}
+.Tenzin h2{
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.Tenzin p{
+    font-family: 'Roboto Mono', monospace;
+}
+.Tenzin figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+.Krishan {
+    height:70vh;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  width: 33%;
+}
+  
+  .Krishan figure {
+    width: 300px;
+    height: 300px;
+      margin: 30px;
+  }
+  .Krishan h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .Krishan p{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+  .Krishan figure img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .Aditya {
+    height:70vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    width: 33%;
+  }
+  
+  .Aditya figure {
+    width: 300px;
+    height: 300px;
+      margin: 30px;
+  }
+  .Aditya h2{
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  }
+  .Aditya p {
+  font-family: 'Roboto Mono', monospace;
+ 
+  }
+  .Aditya figure img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 1024px){
+
+  }
+@media screen and (max-width: 768px) {
+.a{
+  width: 100%;
+}
+}
+@media screen and (max-width: 420px) {
+  
+}

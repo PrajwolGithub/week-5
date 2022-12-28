@@ -27,7 +27,7 @@ h1 {
 
   
 }
-
+ 
 h2 {
   font-family: 'Chivo Mono', monospace;
   margin-bottom: 150px;
@@ -61,7 +61,7 @@ figure {
   display: inline-block;
   padding: 10px 50px;
   background: linear-gradient(rgb(56, 49, 49), rgb(173, 49, 49));
- border-radius: 10px;
+  border-radius: 10px;
   text-decoration: none;
   color: rgb(249, 237, 237);
   font-size: 15px;
@@ -88,6 +88,7 @@ figure {
   }
   .content-wrapper h2 {
     font-size: 20px;
+    margin-bottom: 250px;
   }
   .date {
     font-size: 20px;
@@ -101,19 +102,11 @@ figure {
   .content-wrapper {
     padding-bottom: 50px;
   }
-  .content-wrapper h2 {
-    margin-bottom: 200px;
-  }
-
-  .content-wrapper,
-  figure {
-    width: 100%;
-  }
-
-  figure {
-    height: 300px;
-  }
+  .content-wrapper h1 {
+    font-size: 40px;   
 }
+}
+
 
 @media screen and (max-width: 420px) {
   .button a {
@@ -138,5 +131,8 @@ figure {
     font-size: 15px;
     padding: 5px;
   }
+  figure{
+    display: flex;
+    width: 100%;
+  }
 }
-
