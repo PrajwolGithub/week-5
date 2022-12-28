@@ -8,7 +8,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
 }
 
 .content-wrapper {
@@ -119,8 +119,24 @@ figure {
   .button a {
     text-align: center;
   }
+  .content-wrapper h1{
+    font-size: 40px;
+  }
+  .content-wrapper h2{
+    font-size: 15px;
+  }
   .container{
     width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .content-wrapper{
+    width: 100%;
+    padding: 10px;
+  }
+  .button a{
+    font-size: 15px;
+    padding: 5px;
   }
 }
 
