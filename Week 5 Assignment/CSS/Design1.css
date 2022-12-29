@@ -46,6 +46,7 @@ h2 {
 }
 
 figure {
+  display: flex;
   width: 50%;
   background-position: center;
   background-size: cover;
@@ -88,7 +89,7 @@ figure {
   }
   .content-wrapper h2 {
     font-size: 20px;
-    margin-bottom: 250px;
+    margin-bottom: 200x;
   }
   .date {
     font-size: 20px;
@@ -101,6 +102,9 @@ figure {
 @media screen and (max-width: 768px) {
   .content-wrapper {
     padding-bottom: 50px;
+  }
+  .content-wrapper h2{
+    margin-bottom: 180px;
   }
   .content-wrapper h1 {
     font-size: 40px;   
@@ -131,7 +135,7 @@ figure {
     font-size: 15px;
     padding: 5px;
   }
-  figure{
+   figure{
     display: flex;
     width: 100%;
   }
