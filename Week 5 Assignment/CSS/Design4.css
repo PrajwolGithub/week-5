@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+}
+.container-main .container-img{
+    width: 50%;
+    height: 100vh;
+}
+.container-main .container-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-main .content-wrapper{
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(rgb(105, 105, 100),rgb(166, 108, 21),rgb(138, 132, 132));
+    color:aliceblue
+}
+.container-main .content-wrapper h1{
+    font-size: 70px;
+    line-height: 1.1;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.container-main .content-wrapper .Sponsors{
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
