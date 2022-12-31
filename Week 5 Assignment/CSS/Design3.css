@@ -102,36 +102,33 @@
     padding-top: 40px;
     }
     .container-main .content-wrapper .button{
-        padding-top: 20px;
+        padding-top: 100px;
+    }
+    .container-main .content-wrapper .button a{
+        padding-right: 10px;
+        padding-left: 10px;
     }
   }
   
   
   @media screen and (max-width: 420px) {
-    .button a {
-      text-align: center;
+    .container-main .content-wrapper h1{
+        font-size: 30px;
     }
-    .content-wrapper h1{
-      font-size: 40px;
+    .container-main .content-wrapper .address{
+        font-size: 15px ;
+        padding-bottom: 20px;
     }
-    .content-wrapper h2{
-      font-size: 15px;
+    .container-main .content-wrapper .contact p{
+        font-size: 15px;
+
     }
-    .container{
-      width: 100%;
-      height: auto;
-      flex-direction: column;
+    .container-main .content-wrapper .button a{
+        padding-right: 0px;
+        font-size: 10px;
     }
-    .content-wrapper{
-      width: 100%;
-      padding: 10px;
+    .container-main .content-wrapper .button{
+        padding-top: 20px;
     }
-    .button a{
-      font-size: 15px;
-      padding: 5px;
-    }
-     figure{
-      display: flex;
-      width: 100%;
-    }
+
   }
