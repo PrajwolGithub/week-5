@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: linear-gradient(rgb(17, 17, 17),rgb(60, 36, 126), rgb(61, 61, 61)) ;
+}
+.main .content{
+    display: flex;
+    flex-direction: row;    
+}
+.main .content .contentOne {
+    width: 40%;
+    font-size: 40px;
+    font-weight: 1000;
+    padding: 50px;
+    color: aliceblue;
+}
+.main .content .contentTwo {
+    font-size: 20px;
+    width: 60%;
+    padding: 50px;
+    text-align: justify;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+.img {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;   
+}
+@media screen and (max-width: 1024px) {
+    .main{
+      width: 100%;
+      height: 100vh;
+    }
+    .main .content .contentOne{
+      font-size: 40px;
+    }
+    .main .content .contentTwo{
+        font-size: 20px;
+        padding-bottom: 200px;
+      }
+  }
+  
+  @media screen and (max-width: 768px){
+   .main .content .contentOne{
+    font-size: 30px;
+   }
+   .main .content .contentTwo{
+    font-size: 15px ;
+    padding-bottom: 100px;
+   }
+    .main .img{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+  }
+  
+  @media screen and (max-width: 420px) {
+   .main .content .contentOne{
+    font-size: 20px;
+    padding: 30px;
+   }
+   .main .content .contentTwo{
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 100px;
+   }
+   .main .img{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+  }
