@@ -36,3 +36,34 @@
     padding-left: 30px;
     padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+    .container{
+      width: 100%;
+    }
+    .content-wrapper h1 {
+      font-size: 40px;
+      padding-top: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .container-main .content-wrapper h1{
+      padding-top: 100px;
+      padding-bottom: 200px;
+      font-size: 50px;
+
+    }
+    .container-main .content-wrapper .Sponsors {
+    font-size: 15px;
+     
+  }
+}
+  
+  
+  @media screen and (max-width: 420px) {
+    .container-main .content-wrapper h1{
+        font-size: 30px;
+        padding-bottom: 150px; 
+    }
+
+  }
